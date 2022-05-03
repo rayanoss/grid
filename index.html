@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item-a">
+            <div class="item_a_desc">
+                <p class="item_a_sub">IPHONE 6S</p>
+                <h3>3D Touch. 12MP photos. 4K video. One powerful phone</h3>
+                <p class="item_a_more">Learn more or visit an Apple Store today</p>
+            </div>
+            <img src="https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2f42d9f9d5c2db96e7aa2_Img.png" alt="">
+        </div>
+        <div class="item-b">
+            <p>LEARN MORE</p>
+            <h3>How to Use Rotary Evaporator in Chemical Labs</h3>
+            <a href="#">Download now</a>
+        </div>
+        <div class="item-c">
+            <img src="https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2f42e5b2ebf1f70525e52_Keyboard.png" alt="">
+            <h3>Our Brand New Keyboard</h3>
+            <a href="#">LEARN ></a>
+        </div>
+        <div class="item-d">
+            <div class="left-side">
+                <p>IMAC.RETINA</p>
+                <h3>Hardly a month passes these days where</h3>
+                <img src="https://fr.seaicons.com/wp-content/uploads/2015/06/Macintosh-Plus-icon.png" alt="">
+            </div>
+            <div class="right-side">
+                <p>Apple may be<br/>experimenting in the virtual reality space. The company has been granted a patent for a head-mounted virtual reality device that would use the iPhone screen as the display.</p>
+                <a href="#">DOWNLOAD NOW</a>
+            </div>
+        </div>
+        <div class="item-e">
+            <div class="e_img">
+                <p class="text-shadow">POPULAR</p>
+                <img src="https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2f42de46b0e56a5607bd7_Floppy.png" alt="">
+                <p>MEET</p>
+            </div>
+            <h3>iCloud</h3>
+            <p>With iCloud, you always have the latest versions of your most important things — like documents, apps, notes, and contacts — on whatever device you’re using.</p>
+            <button>LEARN MORE</button>
+        </div>
+        <div class="item-f">
+            <img src="https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2f42dccad941a506d145c_Controller.png" alt="">
+            <h3>Games ourpassion</h3>
+            <a href="#">LEARN ></a>
+        </div>
+        <div class="item-g">
+            <p class="text-border">BEST CHOICE</p>
+            <h3>Much MuchBetter Experience</h3>
+            <img src="https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2e078ccad94811f6d0da3_iPad%20Pro.png" alt="">
+        </div>
+        <div class="item-h">
+            <div class="item-h-div">
+                <img src="https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2f42dac429123bdd925dc_twitter.png" alt="">
+                <h3>Connect with Twitter</h3>
+            </div>
+        </div>
+        <div class="item-i">
+            <p>POPULAR</p>
+            <h3>Much MuchBetter Experience</h3>
+        </div>
+        <div class="item-j">
+            <img src="https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2f42eccad9470ed6d145d_TV.png" alt="">
+            <h3>More than just a display,  it’s a vision</h3>
+        </div>
+    </div>
+</body>
+
+<style>
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item-a {
+display: flex;
+justify-content: center;
+  grid-area: 1 / 1 / 2 / 3;
+  
+}
+
+.item_a_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 32%;
+}
+
+.item-a img{
+    max-width: 300px;
+}
+
+.item_a_sub{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #9fa3a7;
+    font-size: 12px;
+}
+
+.item-a h3{
+    margin: 10px 0;
+    font-size: 22px;
+    color: #333;
+    font-weight: 400;
+    width: 183px;
+    font-family: 'Arvo', serif;
+}
+
+.item_a_more{
+    color: #9fa3a7;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item-b {
+  grid-area: 1/ 3 / 2 / 5;
+  background: #f7f8f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item-b p{
+    color: #9fa3a7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.item-b h3{
+    max-width: 550px;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+}
+
+.item-b a{
+    color: #27b9c2;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.item-c {
+  grid-area: 2 / 1 / 3 / 2;
+  background: #f05739;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-c img{
+    max-width: 319px;
+    height: auto;
+}
+
+.item-c h3{
+    color: #fffbfb;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Arvo', serif;
+}
+
+.item-c a{
+    color: #ffc80a;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.item-d {
+  grid-area: 2 / 2 / 3 / 4;
+  background: transparent;
+  display: flex;
+    justify-content: space-evenly;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25%;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    justify-content: center;
+}
+.left-side p{
+    color: #9fa3a7;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.left-side h3{
+    font-size: 22px;
+    color: #333;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.left-side img{
+    min-width: 231px;
+}
+
+.right-side p{
+    font-size: 14px;
+    color: #9fa3a7;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.right-side a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #27b9c2;
+    text-decoration: none;
+}
+.item-e {
+  grid-area: 2 / 4 / 4 / 5;
+  background: #8f76bc;
+}
+
+.text-shadow{
+    background: rgba(255, 255, 255, 0.08);
+    padding: 2px 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+.e_img img {
+    max-width: 239px;
+    z-index: 1;
+}
+
+.e_img p{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    z-index: 1;
+}
+
+.e_img{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 373px;
+    height: 373px;
+    justify-content: center;
+}
+
+.e_img::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #8166b0;
+    z-index: 0;
+    border-radius: 50%;
+}
+
+.item-e h3{
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+
+.item-e p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    max-width: 55%;
+    font-weight: 400;
+    color: white;
+}
+
+.item-e button{
+    color: black;
+    background: #ffc80a;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 10px 20px;
+    outline: inherit;
+    border: none;
+}
+
+.item-e{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-f {
+  grid-area: 3 / 1 / 4 / 2;
+  background: #f7f8f9;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-f img{
+    max-width: 248px;
+    margin-left: -15px;
+}
+
+.item-f h3{
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    color: #333;
+    font-size: 22px;
+    max-width: 40%;
+    text-align: center;
+}
+
+.item-f a{
+    color: #27b9c2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.item-g {
+  grid-area: 3 / 2 / 4 / 4;
+  background: #93b6b7;
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.item-g p{
+    background: #fa684f;
+    padding: 2px 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    
+    position: absolute;
+    left: 3%;
+    top: 0;
+
+}
+
+.item-g h3{
+    font-size: 22px;
+    color: white;
+    max-width: 280px;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.item-g img{
+    max-width: 650px;
+    margin-left: -134px;
+}
+
+.item-h {
+  grid-area: 4 / 1 / 5 / 2;
+  background: #38d5f4;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-h-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    justify-content: center;
+}
+
+.item-h-div::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #35cfed;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.item-h-div img{
+    max-width: 44px;
+    z-index: 1;
+}
+
+.item-h-div h3{
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    max-width: 60%;
+    z-index: 1;
+}
+
+.item-i {
+  grid-area: 4 / 2 / 5 / 3;
+  background: #f7f8f9;
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-i p{
+    background: #7bc424;
+    padding: 2px 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.item-i h3{
+    text-align: center;
+    color: #333;
+    font-family: 'Arvo', serif;
+    font-size: 22px;
+    font-weight: 400;
+    max-width: 65%;
+}
+
+.item-j {
+  grid-area: 4 / 3 / 5 / 5;
+  background: #2c2c2c;
+  display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item-j img{
+    max-width: 271px;
+}
+
+.item-j h3{
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    color: white;
+    font-size: 22px;
+    max-width: 30%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr) 200px;
+  }
+</style>
+</html>
